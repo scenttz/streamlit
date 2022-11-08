@@ -2,7 +2,7 @@ from operator import mod
 import streamlit as st
 import pickle
 
-sudo pip3 install scikit-learn
+!pip install -U scikit-learn
 
 
 # @st.cache
