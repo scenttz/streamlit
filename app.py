@@ -2,6 +2,9 @@ from operator import mod
 import streamlit as st
 import pickle
 
+sudo pip3 install scikit-learn
+
+
 # @st.cache
 def load_model():
   with open('models/author_pipe.pkl', 'rb') as f:
