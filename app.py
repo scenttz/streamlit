@@ -1,8 +1,12 @@
 from operator import mod
 import streamlit as st
 import pickle
-
-!pip install -U scikit-learn
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.linear_model import LogisticRegressionCV
+from sklearn.metrics import plot_confusion_matrix
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.pipeline import Pipeline 
 
 
 # @st.cache
